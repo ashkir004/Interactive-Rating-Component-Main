@@ -1,7 +1,6 @@
 <script>
     let selected = $state(-1);
     let submitted = $state(false);
-    $inspect(selected);
 </script>
 
 
