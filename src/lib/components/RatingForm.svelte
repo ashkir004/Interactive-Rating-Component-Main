@@ -23,8 +23,6 @@
     <button
         onclick={() => submitted = true} 
         type="submit" 
-        name="rating" 
-        value={selected} 
         class='submit {submitted ? 'submitted' : ''}'>Submit</button>
 </form>
 
@@ -103,9 +101,15 @@
         vertical-align: center;
     }
 
+    .submit:focus {
+        outline: 0.1rem solid var(--primary);
+        outline-offset: 0.15rem;    
+    }
+
     .submit.submitted {
         background-color: var(--secondary);
         color: var(--onsecondary);
+        outline-color: var(--secondary);
     }
 
     @media (min-width: 48rem) {
