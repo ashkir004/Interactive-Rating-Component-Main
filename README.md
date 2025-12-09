@@ -1,38 +1,42 @@
-# sv
+# Frontend Mentor - Interactive rating component solution
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+This is a solution to the [Interactive rating component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
 
-## Creating a project
+## Overview
 
-If you're seeing this, you've probably already done this step. Congrats!
+### The challenge
 
-```sh
-# create a new project in the current directory
-npx sv create
+Users should be able to:
 
-# create a new project in my-app
-npx sv create my-app
-```
+- View the optimal layout for the app depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Select and submit a number rating
+- See the "Thank you" card state after submitting a rating
 
-## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Links
 
-```sh
-npm run dev
+- Solution URL: [Interactive Rating Component: Github](https://github.com/ashkir004/Interactive-Rating-Component-Main)
+- Live Site URL: [Interactive Rating Component: Netlify](https://interactive-rating-component-ashkir.com)
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+## My process
 
-## Building
+### Built with
 
-To create a production version of your app:
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- CSS Grid
+- Mobile-first workflow
+- [Svelte](https://svelte.dev/) - JS library
+- [Sveltekit](https://svelte.dev/) - Svelte framework
 
-```sh
-npm run build
-```
 
-You can preview the production build with `npm run preview`.
+## Author
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- Frontend Mentor - [@ashkir004](https://www.frontendmentor.io/profile/ashkir004)
+
+
+## Acknowledgments
+
+- [Frontendmentor](https://www.frontendmentor.io/)
