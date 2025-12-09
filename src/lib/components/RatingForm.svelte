@@ -13,7 +13,6 @@
             <input
                 type="radio" 
                 id={num} 
-                tabIndex={num}
                 name="rating" 
                 value={num} 
                 bind:group={selected}/>
