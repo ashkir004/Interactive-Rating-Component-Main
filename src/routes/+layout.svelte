@@ -75,5 +75,11 @@
 			line-height: var(--line-height-lg);
         }
 	}
+
+    @media (min-width: 64rem) {
+        .card {
+            gap: var(--s-400);
+        }
+    }
 }
 </style>

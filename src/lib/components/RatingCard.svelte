@@ -48,9 +48,10 @@
 
         .card {
             padding: var(--s-400) var(--s-300);
+            gap: var(--s-400);
         }
 
-        .star-bg {
+        .card:before {
             min-width: var(--size-48);
             min-height: var(--size-48);   
         }
