@@ -1,0 +1,70 @@
+:root {
+    --colors-white: #FFFFFF;
+    --colors-black: #000000;
+    --colors-grey-950: #131518;
+    --colors-grey-900: #262E38;
+    --colors-grey-500: #969FAD;
+    --colors-orange-500: #FC7614;
+    /* --gradient: radial-gradient(circle, #232A34 0%, #181E27 100%); */
+    --gradient: radial-gradient(farthest-side at 50% 0%,#232A34 50%,#181E27);
+
+    --primary: var(--colors-orange-500);
+    --onprimary: var(--colors-grey-950);
+    --secondary: var(--colors-white);
+    --onsecondary: var(--colors-grey-900);
+    --surface: var(--colors-grey-950);
+    --surface-card: var(--gradient);
+    --onsurface-card: var(--colors-white);
+    --onsurface-card-variant: var(--colors-grey-500);
+    --surface-3: var(--colors-grey-900);
+    --onsurface-3: var(--colors-grey-500);
+    --inverse-primary: var(--colors-orange-500);
+
+    --font-xl: calc(28 / 16 * 1rem);
+    --font-lg: calc(24 / 16 * 1rem);
+    --font-md: calc(16 / 16 * 1rem);
+    --font-sm: calc(15 / 16 * 1rem);
+    --font-xs: calc(14 / 16 * 1rem);
+
+    --line-height-xxl: calc(35 / 16 * 1rem);
+    --line-height-xl: calc(30 / 16 * 1rem);
+    --line-height-lg: calc(24 / 16 * 1rem);
+    --line-height-md: calc(22 / 16 * 1rem);
+    --line-height-sm: calc(19 / 16 * 1rem);
+    --line-height-xs: calc(18 / 16 * 1rem);
+
+    --letter-spacing-wide: 1.87;
+    --letter-spacing-normal: 1;
+    --letter-spacing-narrow: 0.2; 
+    --letter-spacing-very-narrow: 0.17; 
+
+    --s-0: 0;
+    --s-50: calc(6 / 16 * 1rem);
+    --s-100: calc(8 / 16 * 1rem);
+    --s-200: calc(16 / 16 * 1rem);
+    --s-300: calc(24 / 16 * 1rem);
+    --s-400: calc(32 / 16 * 1rem);
+    --s-500: calc(40 / 16 * 1rem);
+    --s-1300: calc(104 / 16 * 1rem);
+    --s-1700: calc(136 / 16 * 1rem);
+
+    --size-40: calc(40 / 16 * 1rem);
+    --size-42: calc(42 / 16 * 1rem);
+    --size-48: calc(48 / 16 * 1rem);
+    --size-51: calc(51 / 16 * 1rem);
+    --size-96: calc(96 / 16 * 1rem);
+    --size-144: calc(144 / 16 * 1rem);
+    --size-108: calc(108 / 16 * 1rem);
+    --size-162: calc(162 / 16 * 1rem);
+}
+
+
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: var(--surface); 
+}
